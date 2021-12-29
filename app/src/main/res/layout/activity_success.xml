@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5E8EA"
+    android:gravity="center"
+    android:paddingTop="40dp"
+    android:orientation="vertical"
+    tools:context=".Success">
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="199dp"
+        android:background="@drawable/water2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FLOMO"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flood Monitoring"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help to monitor and reduce flooding"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+        <LinearLayout
+            android:onClick="camera"
+            android:weightSum="1"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="180dp"
+            android:background="@drawable/bg"
+            android:backgroundTint="#A0D5EB"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="75dp"
+                android:src="@drawable/camera"
+                android:layout_marginBottom="9dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cek \nKondisi \nSaluran Air"
+                android:textColor="#515895"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <LinearLayout
+            android:onClick="water"
+            android:layout_width="70dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg"
+            android:backgroundTint="#A0D5EB"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:layout_marginBottom="9dp"
+                android:src="@drawable/tinggi">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cek \nKondisi \nKetinggian Air"
+                android:textColor="#515895"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="551dp"
+            android:layout_height="284dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/rumah" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5E8EA"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    tools:context=".SaluranAirActivity">
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/water2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="31dp">
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="77dp"
+            android:src="@drawable/tinggi">
+
+        </ImageView>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="164dp"
+            android:layout_height="71dp"
+            android:gravity="left"
+            android:text="Kondisi \nKetinggian Air"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"/>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="506dp"
+        android:background="@drawable/bg2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="293dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg"
+            android:backgroundTint="#A0D5EB"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ketinggian Air yang terbaca :"
+                android:textColor="#515895"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:layout_height="222dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="184dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg3"
+            android:onClick="grafik"
+            android:backgroundTint="#A0D5EB"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Lihat Grafik"
+                android:textColor="#515895"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="184dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg3"
+            android:backgroundTint="#A0D5EB"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/wa" />
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="23dp"
+                android:gravity="center"
+                android:text="Whats App"
+                android:textColor="#515895"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="53dp"
+            android:onClick="home"
+            android:src="@drawable/home" />
+
+    </LinearLayout>
+
+</LinearLayout>

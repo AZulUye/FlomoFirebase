@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604027977650",
+    "project_id": "flomo-da685",
+    "storage_bucket": "flomo-da685.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604027977650:android:a6175f37532cc011faeeab",
+        "android_client_info": {
+          "package_name": "com.example.flom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604027977650-nfeu1on6dj0d06lhln5ta79mbqagg28o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP4OboEOM8OhsdS9e5u8AGMosQqGJpzCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604027977650-nfeu1on6dj0d06lhln5ta79mbqagg28o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
